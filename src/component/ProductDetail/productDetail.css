@@ -1,0 +1,84 @@
+.app{
+    max-width: 1200px;
+    width: 100%;
+    margin: 3% auto;
+    box-shadow: 0 0 5px #ccc;
+  }
+  
+  .details{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0;
+  }
+  
+  .details .big-img{
+    max-width: 300px;
+    min-width: 290px;
+    overflow: hidden;
+    margin: 25px;
+  }
+  
+  .big-img img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .details .box-product-detail{
+    max-width: 500px;
+    min-width: 290px;
+    margin: 25px;
+  }
+  
+  .box-product-detail .price{
+    display: flex;
+  }
+  
+  .box-product-detail .price span{
+    color: crimson;
+    font-weight: bolder;
+    font-size: 2rem;
+  }
+  
+  .box-product-detail .colors button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    outline: none;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .box-product-detail p{
+    line-height: 1.5;
+    margin: 15px 0;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+.amount span{
+    color: crimson;
+    padding: 0 20px;
+}
+
+.amount button{
+    width: 40px;
+    height: 36px;
+    border: 1px solid #777;
+    background:white;
+    color:black;
+}
+.amount {
+  margin-top: 40px;
+  margin-left: 75px;
+}
+.qtyBtn {
+    display: flex;
+}
+.amount .qtyLink {
+  padding: 0 20px;
+  font-weight: bolder;
+  font-size: 1rem;
+  color:black;
+}

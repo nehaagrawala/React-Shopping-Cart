@@ -1,0 +1,39 @@
+
+.collection .collection-item{
+    display: flex !important;
+}
+.collection-item.avatar .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #e91e63;
+    display: block;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+.collection .collection-item.avatar {
+    padding-left: 20px;
+}
+.collection .collection-item img{
+    width: 150px;
+    margin-right: 25px;
+}
+.item-desc{
+    align-self:center;
+    margin-left: 10%;
+}
+.item-img {
+    cursor: pointer;
+    margin-top: 5%;
+}
+.empty-cart {
+    margin-left: auto;
+    margin-top: 1%;
+}
+.container .proceedBtn{
+    margin-left: auto;
+    margin-top: 30px
+}
+.container .total{
+    display: flex;
+}

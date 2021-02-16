@@ -1,0 +1,66 @@
+
+.form-wrapper {
+    width:40%;
+    box-shadow: 0 0 5px #ccc;
+    margin: 0 auto 10px;
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+.form-wrapper .form {
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+
+.info {
+padding-bottom: 1em;
+padding-left: 0.5em;
+padding-right: 0.5em;
+}
+
+.info label {
+margin-bottom: 0.5em;
+color: #444;
+font-weight: lighter;
+}
+
+.form-wrapper input {
+padding: 10px 10px;
+border-radius: 5px;
+outline: none;
+border: 1px solid #d6d1d5;
+width: auto !important;
+}
+
+.form-wrapper input::placeholder {
+font-size: 1.2em;
+font-weight: lighter;
+color: #bbb;
+}
+
+.form-wrapper input.error {
+border: 1px solid #EADAE4;
+}
+
+.form-wrapper .error {
+color:#db2269;
+font-size: 0.625em;
+display: relative;
+}
+
+.form-wrapper .fullName {
+margin-right: 1%;
+}
+
+
+.form-wrapper .fullName,
+.email,
+.phoneNumber,
+.address {
+width: 100%;
+display: flex;
+flex-direction: column;
+margin-bottom: 15px;
+}
+

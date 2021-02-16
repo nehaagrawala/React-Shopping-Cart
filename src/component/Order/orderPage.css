@@ -1,0 +1,16 @@
+img.orderPageimg {
+    width:100px;
+}
+.invoice tr {
+    display: flex;
+    margin-top: 3%;
+}
+.invoice {
+    margin-left: 10%;
+}
+.product-detail {
+    margin-left: 3%;
+}
+.invoice .price {
+    margin-left: 20%;
+}
